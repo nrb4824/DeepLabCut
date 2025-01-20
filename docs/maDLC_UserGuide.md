@@ -177,7 +177,7 @@ bar to navigate across the video and *Grab a Frame* (or a range of frames, as of
 ```python
 deeplabcut.label_frames(config_path)
 ```
-
+[comment]: <> ( todo specify that need to open folder? )
 As of 2.2 there is a new multi-animal labeling GUI (as long as in your `config.yaml` says `multianimalproject: true` at the top, this will automatically launch).
 
 The toolbox provides a function **label_frames** which helps the user to easily label all the extracted frames using

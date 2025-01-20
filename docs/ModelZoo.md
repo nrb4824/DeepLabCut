@@ -82,7 +82,7 @@ deeplabcut.video_inference_superanimal([video_path],
                                         superanimal_name,
                                         video_adapt = False)
 ```
-
+[comment]: <> (Missing model name!)
 
 #### Practical example: Using SuperAnimal model bottom up, considering video/animal size.
 
@@ -115,8 +115,8 @@ deeplabcut.create_training_dataset(config_path, superanimal_name = superanimal_n
 
 deeplabcut.train_network(config_path,
                          maxiters=10,
-                         superanimal_name = superanimal_name,
-                         superanimal_transfer_learning = True)
+                         superanimal_name = superanimal_name, # todo these are called differently in pytorch
+                         superanimal_transfer_learning = True) # todo these are called differently in pytorch
 ```
 
 

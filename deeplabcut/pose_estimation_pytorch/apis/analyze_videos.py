@@ -533,7 +533,6 @@ def create_df_from_prediction(
     if len(predictions) > 0 and "unique_bodyparts" in predictions[0]:
         pred_unique_bodyparts = np.stack([p["unique_bodyparts"] for p in predictions])
 
-    output_h5 = Path(output_path) / f"{output_prefix}.h5"
     output_pkl = Path(output_path) / f"{output_prefix}_full.pickle"
 
     bodyparts = model_cfg["metadata"]["bodyparts"]
@@ -541,7 +540,7 @@ def create_df_from_prediction(
     individuals = model_cfg["metadata"]["individuals"]
     n_individuals = len(individuals)
 
-    print(f"Saving results in {output_h5} and {output_pkl}")
+    print(f"Saving results in {output_pkl}")
     coords = ["x", "y", "likelihood"]
     cols = [[dlc_scorer], bodyparts, coords]
     cols_names = ["scorer", "bodyparts", "coords"]

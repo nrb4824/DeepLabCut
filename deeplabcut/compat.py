@@ -166,7 +166,7 @@ def train_network(
     superanimal_name: str, optional, default =""
         Only for the TensorFlow engine. For the PyTorch engine, you need to specify
         this through the ``weight_init`` when creating the training dataset.
-        Specified if transfer learning with superanimal is desired
+        Specified if transfer learning with superanimal is desired # todo what does this mean?
 
     superanimal_transfer_learning: bool, optional, default = False.
         Only for the TensorFlow engine. For the PyTorch engine, you need to specify

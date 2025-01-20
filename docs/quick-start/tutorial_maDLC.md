@@ -19,7 +19,7 @@ video_path = "path_to_a_video_file"
 config_path = deeplabcut.create_new_project(
     project_name,
     experimenter,
-    [video_paths],
+    [video_path],
     multianimal=True,
     copy_videos=True,
 )

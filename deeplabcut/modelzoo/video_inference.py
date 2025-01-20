@@ -216,7 +216,7 @@ def video_inference_superanimal(
 
     Examples (PyTorch Engine)
     --------
-    >>> import deeplabcut.modelzoo.video_inference.video_inference_superanimal as video_inference_superanimal
+        >>> import deeplabcut.modelzoo.video_inference.video_inference_superanimal as video_inference_superanimal # todo this doesn't seem to work
     >>> video_inference_superanimal(
         videos=["/mnt/md0/shaokai/DLCdev/3mice_video1_short.mp4"],
         superanimal_name="superanimal_topviewmouse",
@@ -252,7 +252,7 @@ def video_inference_superanimal(
     >>> video_inference_superanimal(
             video,
             video_adapt = True,
-            superanimal_name,
+            superanimal_name, # todo no model name?? Needs to be added?
             videotype = '.avi',
             scale_list = scale_list,
         )
