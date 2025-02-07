@@ -58,6 +58,13 @@
 
 # [Installation: how to install DeepLabCut](https://deeplabcut.github.io/DeepLabCut/docs/installation.html)
 
+Updated Instalation. Changes to Gui must be made in the pytorch_dlc branch.
+After making changes push them to github and then run the following command to update the conda package:
+```bash 
+pip install --force-reinstall "git+https://github.com/nrb4824/DeepLabCut.git@pytorch_dlc#egg=deeplabcut[gui,modelzoo,wandb]"
+```
+
+
 Please click the link above for all the information you need to get started! Please note that currently we support only Python 3.10+ (see conda files for guidance).
 
 Developers Stable Release:
