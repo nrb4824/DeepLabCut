@@ -49,7 +49,7 @@ class ProjectCreator(QtWidgets.QDialog):
         user_frame.setFrameShape(user_frame.Shape.StyledPanel)
         user_frame.setLineWidth(0)
 
-        proj_label = QtWidgets.QLabel("Projectssssss:", user_frame)
+        proj_label = QtWidgets.QLabel("Projects test:", user_frame)
         self.proj_line = QtWidgets.QLineEdit(self.proj_default, user_frame)
         self.proj_line.setPlaceholderText("my project's name")
         self._default_style = self.proj_line.styleSheet()
