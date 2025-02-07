@@ -38,7 +38,7 @@ You need Python and DeepLabCut installed!
 
 
 - **WATCH:** How do you know DLC is installed properly? (i.e. how to use our test script!) [Video Tutorial!](https://youtu.be/IOWtKn3l33s)
-
+[comment]: <> (make link to somewhere else, this is outdated)
 
 <img src="https://images.squarespace-cdn.com/content/v1/57f6d51c9f74566f55ecf271/1587608364285-A8R2F24K4DCP0KLAYI91/ke17ZwdGBToddI8pDm48kOhrDvKq54Xu9oStUCFZX0R7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0p4XabXLlNWpcJMv7FrN_NLe3GEN018us8vX03EdtIDHsW7dEh7nvL5CemxAxOy1gg/EKlIEXyXUAE0cy3.jpeg?format=1000w" width="350" title="DLC" alt="review!" align="right" vspace = "50">
 

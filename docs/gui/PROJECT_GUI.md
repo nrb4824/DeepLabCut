@@ -19,6 +19,7 @@ Now you have DeepLabCut installed, but if you want to update it, either follow t
 <p align="center">
 <img src="https://images.squarespace-cdn.com/content/v1/57f6d51c9f74566f55ecf271/07ae2633-dc3e-4b6d-beec-27c08d9f8531/ezgif.com-gif-maker+%284%29.gif?format=2500w" width="80%">
 </p>
+[comment]: <> (todo update this)
 
 Start at the Project Management Tab and work your way through the tabs to built your customized model and deploy it on new data.
 We recommend to keep the terminal visible (as well as the GUI) so you can see the ongoing processes as you step through your project, or any errors that might arise.

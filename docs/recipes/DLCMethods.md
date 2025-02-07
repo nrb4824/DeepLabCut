@@ -49,5 +49,7 @@ If you use ResNets, consider citing Insafutdinov et al 2016 & He et al 2016. If 
 > 770–778 (2016). URL https://arxiv.org/abs/
 > 1512.03385.
 
+[comment]: <> (add Superanimals paper)
+
 We also have the network graphic freely available on SciDraw.io if you'd like to use it! https://scidraw.io/drawing/290.
 If you use our DLC logo, please include the TM symbol, thank you!
